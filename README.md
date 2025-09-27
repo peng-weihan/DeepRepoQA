@@ -7,7 +7,7 @@
 ## Introduction
 
 DeepRepoQA is a project for deep repository question answering.
-![Approach](assets/approach.svg)
+![Approach](assets/approach.png)
 ## Features
 
 
