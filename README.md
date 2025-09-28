@@ -15,16 +15,30 @@ DeepRepoQA is a project for deep repository question answering.
 
 ### Requirements
 
-- Python 3.12
+- Python 3.11 (recommended to use conda environment)
 - Other dependencies...
+
+### Environment Setup
+
+Recommended to use conda for creating an isolated environment:
+
+```bash
+# Create conda environment using environment.yml
+conda env create -f environment.yml
+
+# Activate the environment
+conda activate DeepRepoQA
+```
 
 ### Installation Steps
 
 ```bash
-# Install dependencies
-pip install -r requirements.txt
+# Method 1: Using conda environment (recommended)
+conda env create -f environment.yml
+conda activate DeepRepoQA
 
-# Install project
+# Method 2: Using pip installation
+pip install -r requirements.txt
 pip install -e .
 ```
 
