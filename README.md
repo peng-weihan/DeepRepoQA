@@ -30,16 +30,6 @@ conda env create -f environment.yml
 conda activate DeepRepoQA
 ```
 
-### Installation Steps
-
-```bash
-# Method 1: Using conda environment (recommended)
-conda env create -f environment.yml
-conda activate DeepRepoQA
-
-```
-
-
 ## Quick Start
 
 This project supports **single mode** and **batch mode**. Before running, make sure to configure the environment variables properly.
