@@ -37,44 +37,87 @@ conda activate DeepRepoQA
 conda env create -f environment.yml
 conda activate DeepRepoQA
 
-# Method 2: Using pip installation
-pip install -r requirements.txt
-pip install -e .
 ```
+
 
 ## Quick Start
 
-```python
-# Example code
-from deeprepoqa import DeepRepoQA
+This project supports **single mode** and **batch mode**. Before running, make sure to configure the environment variables properly.
 
-# Initialize
-qa = DeepRepoQA()
+---
 
-# Usage example
-result = qa.ask("Your question")
-print(result)
+### Environment Configuration
+
+Create a `.env` file in the project root and add the following:
+
+```ini
+# Custom LLM configuration
+CUSTOM_LLM_API_BASE=""
+CUSTOM_LLM_MODEL=""
+CUSTOM_LLM_API_KEY=""
+
+# Voyage API configuration (required)
+VOYAGE_API_KEY=""
+
+# Required for single mode
+REPO_PATH=""
+````
+
+**Explanation of variables:**
+
+* `CUSTOM_LLM_API_BASE`: API endpoint of your custom LLM
+* `CUSTOM_LLM_MODEL`: Model name, e.g., `gpt-4`
+* `CUSTOM_LLM_API_KEY`: API key for accessing the LLM
+* `VOYAGE_API_KEY`: Required for using the Voyage API
+* `REPO_PATH`: Only needed for **single mode**, specifies the repository path
+
+---
+
+### Single Mode
+
+Run the single mode example:
+
+```bash
+python example.py
 ```
 
-## Usage
+> This mode processes the repository specified in `REPO_PATH` in your `.env` file.
 
-### Basic Usage
+---
 
-Detailed usage instructions...
+### Batch Mode
 
-### Advanced Configuration
+Run the batch mode example:
 
-Advanced configuration options...
+```bash
+python example_batch.py
+```
+
+> This mode processes multiple repositories sequentially.
+
+---
+
+### Output
+
+Results from both single mode and batch mode are saved in:
+
+```
+dataset/answers
+```
+
+Each repository/question is stored as a JSONL file with answers
+
+
 
 ## Project Structure
 
 ```
 ```
 
+
 ## Contributing
 
 Contributions are welcome! Please follow these steps:
-
 
 
 ## License
@@ -82,7 +125,6 @@ Contributions are welcome! Please follow these steps:
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
-
 
 ## Acknowledgments
 
