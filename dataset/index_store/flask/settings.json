@@ -1,0 +1,10 @@
+{
+    "embed_model": "voyage-code-3",
+    "dimensions": 1024,
+    "language": "python",
+    "min_chunk_size": 100,
+    "chunk_size": 750,
+    "hard_token_limit": 2000,
+    "max_chunks": 200,
+    "comment_strategy": "associate"
+}

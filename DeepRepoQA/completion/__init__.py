@@ -1,0 +1,1 @@
+from DeepRepoQA.completion.completion import CompletionModel

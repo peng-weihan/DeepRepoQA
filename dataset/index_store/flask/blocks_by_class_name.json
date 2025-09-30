@@ -1,0 +1,812 @@
+{
+  "AuthActions": [
+    [
+      "examples/tutorial/tests/conftest.py",
+      [
+        "AuthActions"
+      ]
+    ]
+  ],
+  "Flask": [
+    [
+      "src/flask/app.py",
+      [
+        "Flask"
+      ]
+    ]
+  ],
+  "Blueprint": [
+    [
+      "src/flask/blueprints.py",
+      [
+        "Blueprint"
+      ]
+    ],
+    [
+      "src/flask/sansio/blueprints.py",
+      [
+        "Blueprint"
+      ]
+    ]
+  ],
+  "NoAppException": [
+    [
+      "src/flask/cli.py",
+      [
+        "NoAppException"
+      ]
+    ]
+  ],
+  "ScriptInfo": [
+    [
+      "src/flask/cli.py",
+      [
+        "ScriptInfo"
+      ]
+    ]
+  ],
+  "AppGroup": [
+    [
+      "src/flask/cli.py",
+      [
+        "AppGroup"
+      ]
+    ]
+  ],
+  "FlaskGroup": [
+    [
+      "src/flask/cli.py",
+      [
+        "FlaskGroup"
+      ]
+    ]
+  ],
+  "CertParamType": [
+    [
+      "src/flask/cli.py",
+      [
+        "CertParamType"
+      ]
+    ]
+  ],
+  "SeparatedPathType": [
+    [
+      "src/flask/cli.py",
+      [
+        "SeparatedPathType"
+      ]
+    ]
+  ],
+  "ConfigAttribute": [
+    [
+      "src/flask/config.py",
+      [
+        "ConfigAttribute"
+      ]
+    ]
+  ],
+  "Config": [
+    [
+      "src/flask/config.py",
+      [
+        "Config"
+      ]
+    ]
+  ],
+  "_AppCtxGlobals": [
+    [
+      "src/flask/ctx.py",
+      [
+        "_AppCtxGlobals"
+      ]
+    ]
+  ],
+  "AppContext": [
+    [
+      "src/flask/ctx.py",
+      [
+        "AppContext"
+      ]
+    ]
+  ],
+  "UnexpectedUnicodeError": [
+    [
+      "src/flask/debughelpers.py",
+      [
+        "UnexpectedUnicodeError"
+      ]
+    ]
+  ],
+  "DebugFilesKeyError": [
+    [
+      "src/flask/debughelpers.py",
+      [
+        "DebugFilesKeyError"
+      ]
+    ]
+  ],
+  "FormDataRoutingRedirect": [
+    [
+      "src/flask/debughelpers.py",
+      [
+        "FormDataRoutingRedirect"
+      ]
+    ]
+  ],
+  "JSONProvider": [
+    [
+      "src/flask/json/provider.py",
+      [
+        "JSONProvider"
+      ]
+    ]
+  ],
+  "DefaultJSONProvider": [
+    [
+      "src/flask/json/provider.py",
+      [
+        "DefaultJSONProvider"
+      ]
+    ]
+  ],
+  "JSONTag": [
+    [
+      "src/flask/json/tag.py",
+      [
+        "JSONTag"
+      ]
+    ]
+  ],
+  "TagDict": [
+    [
+      "src/flask/json/tag.py",
+      [
+        "TagDict"
+      ]
+    ]
+  ],
+  "PassDict": [
+    [
+      "src/flask/json/tag.py",
+      [
+        "PassDict"
+      ]
+    ]
+  ],
+  "TagTuple": [
+    [
+      "src/flask/json/tag.py",
+      [
+        "TagTuple"
+      ]
+    ]
+  ],
+  "PassList": [
+    [
+      "src/flask/json/tag.py",
+      [
+        "PassList"
+      ]
+    ]
+  ],
+  "TagBytes": [
+    [
+      "src/flask/json/tag.py",
+      [
+        "TagBytes"
+      ]
+    ]
+  ],
+  "TagMarkup": [
+    [
+      "src/flask/json/tag.py",
+      [
+        "TagMarkup"
+      ]
+    ]
+  ],
+  "TagUUID": [
+    [
+      "src/flask/json/tag.py",
+      [
+        "TagUUID"
+      ]
+    ]
+  ],
+  "TagDateTime": [
+    [
+      "src/flask/json/tag.py",
+      [
+        "TagDateTime"
+      ]
+    ]
+  ],
+  "TaggedJSONSerializer": [
+    [
+      "src/flask/json/tag.py",
+      [
+        "TaggedJSONSerializer"
+      ]
+    ]
+  ],
+  "App": [
+    [
+      "src/flask/sansio/app.py",
+      [
+        "App"
+      ]
+    ]
+  ],
+  "BlueprintSetupState": [
+    [
+      "src/flask/sansio/blueprints.py",
+      [
+        "BlueprintSetupState"
+      ]
+    ]
+  ],
+  "Scaffold": [
+    [
+      "src/flask/sansio/scaffold.py",
+      [
+        "Scaffold"
+      ]
+    ]
+  ],
+  "SessionMixin": [
+    [
+      "src/flask/sessions.py",
+      [
+        "SessionMixin"
+      ]
+    ]
+  ],
+  "SecureCookieSession": [
+    [
+      "src/flask/sessions.py",
+      [
+        "SecureCookieSession"
+      ]
+    ]
+  ],
+  "NullSession": [
+    [
+      "src/flask/sessions.py",
+      [
+        "NullSession"
+      ]
+    ]
+  ],
+  "SessionInterface": [
+    [
+      "src/flask/sessions.py",
+      [
+        "SessionInterface"
+      ]
+    ]
+  ],
+  "SecureCookieSessionInterface": [
+    [
+      "src/flask/sessions.py",
+      [
+        "SecureCookieSessionInterface"
+      ]
+    ]
+  ],
+  "Environment": [
+    [
+      "src/flask/templating.py",
+      [
+        "Environment"
+      ]
+    ]
+  ],
+  "DispatchingJinjaLoader": [
+    [
+      "src/flask/templating.py",
+      [
+        "DispatchingJinjaLoader"
+      ]
+    ]
+  ],
+  "EnvironBuilder": [
+    [
+      "src/flask/testing.py",
+      [
+        "EnvironBuilder"
+      ]
+    ]
+  ],
+  "FlaskClient": [
+    [
+      "src/flask/testing.py",
+      [
+        "FlaskClient"
+      ]
+    ]
+  ],
+  "FlaskCliRunner": [
+    [
+      "src/flask/testing.py",
+      [
+        "FlaskCliRunner"
+      ]
+    ]
+  ],
+  "View": [
+    [
+      "src/flask/views.py",
+      [
+        "View"
+      ]
+    ]
+  ],
+  "MethodView": [
+    [
+      "src/flask/views.py",
+      [
+        "MethodView"
+      ]
+    ]
+  ],
+  "Request": [
+    [
+      "src/flask/wrappers.py",
+      [
+        "Request"
+      ]
+    ]
+  ],
+  "Response": [
+    [
+      "src/flask/wrappers.py",
+      [
+        "Response"
+      ]
+    ]
+  ],
+  "AppError": [
+    [
+      "tests/test_async.py",
+      [
+        "AppError"
+      ]
+    ]
+  ],
+  "BlueprintError": [
+    [
+      "tests/test_async.py",
+      [
+        "BlueprintError"
+      ]
+    ]
+  ],
+  "AsyncView": [
+    [
+      "tests/test_async.py",
+      [
+        "AsyncView"
+      ]
+    ]
+  ],
+  "AsyncMethodView": [
+    [
+      "tests/test_async.py",
+      [
+        "AsyncMethodView"
+      ]
+    ]
+  ],
+  "ForbiddenSubclass": [
+    [
+      "tests/test_basic.py",
+      [
+        "test_http_error_subclass_handling",
+        "ForbiddenSubclass"
+      ]
+    ]
+  ],
+  "E1": [
+    [
+      "tests/test_basic.py",
+      [
+        "test_errorhandler_precedence",
+        "E1"
+      ]
+    ]
+  ],
+  "E2": [
+    [
+      "tests/test_basic.py",
+      [
+        "test_errorhandler_precedence",
+        "E2"
+      ]
+    ]
+  ],
+  "E3": [
+    [
+      "tests/test_basic.py",
+      [
+        "test_errorhandler_precedence",
+        "E3"
+      ]
+    ]
+  ],
+  "MyDecoratorException": [
+    [
+      "tests/test_blueprints.py",
+      [
+        "test_blueprint_specific_user_error_handling",
+        "MyDecoratorException"
+      ]
+    ]
+  ],
+  "MyFunctionException": [
+    [
+      "tests/test_blueprints.py",
+      [
+        "test_blueprint_specific_user_error_handling",
+        "MyFunctionException"
+      ]
+    ]
+  ],
+  "Module": [
+    [
+      "tests/test_cli.py",
+      [
+        "test_find_best_app",
+        "Module"
+      ]
+    ]
+  ],
+  "Module_1": [
+    [
+      "tests/test_cli.py",
+      [
+        "test_find_best_app",
+        "Module_1"
+      ]
+    ]
+  ],
+  "Module_2": [
+    [
+      "tests/test_cli.py",
+      [
+        "test_find_best_app",
+        "Module_2"
+      ]
+    ]
+  ],
+  "Module_3": [
+    [
+      "tests/test_cli.py",
+      [
+        "test_find_best_app",
+        "Module_3"
+      ]
+    ]
+  ],
+  "Module_4": [
+    [
+      "tests/test_cli.py",
+      [
+        "test_find_best_app",
+        "Module_4"
+      ]
+    ]
+  ],
+  "Module_5": [
+    [
+      "tests/test_cli.py",
+      [
+        "test_find_best_app",
+        "Module_5"
+      ]
+    ]
+  ],
+  "Module_6": [
+    [
+      "tests/test_cli.py",
+      [
+        "test_find_best_app",
+        "Module_6"
+      ]
+    ]
+  ],
+  "Module_7": [
+    [
+      "tests/test_cli.py",
+      [
+        "test_find_best_app",
+        "Module_7"
+      ]
+    ]
+  ],
+  "Module_8": [
+    [
+      "tests/test_cli.py",
+      [
+        "test_find_best_app",
+        "Module_8"
+      ]
+    ]
+  ],
+  "Module_9": [
+    [
+      "tests/test_cli.py",
+      [
+        "test_find_best_app",
+        "Module_9"
+      ]
+    ]
+  ],
+  "Module_10": [
+    [
+      "tests/test_cli.py",
+      [
+        "test_find_best_app",
+        "Module_10"
+      ]
+    ]
+  ],
+  "Module_11": [
+    [
+      "tests/test_cli.py",
+      [
+        "test_find_best_app",
+        "Module_11"
+      ]
+    ]
+  ],
+  "TestRoutes": [
+    [
+      "tests/test_cli.py",
+      [
+        "TestRoutes"
+      ]
+    ]
+  ],
+  "FakePath": [
+    [
+      "tests/test_helpers.py",
+      [
+        "FakePath"
+      ]
+    ]
+  ],
+  "PyBytesIO": [
+    [
+      "tests/test_helpers.py",
+      [
+        "PyBytesIO"
+      ]
+    ]
+  ],
+  "StaticFileApp": [
+    [
+      "tests/test_helpers.py",
+      [
+        "TestSendfile",
+        "test_static_file",
+        "StaticFileApp"
+      ]
+    ]
+  ],
+  "TestSendfile": [
+    [
+      "tests/test_helpers.py",
+      [
+        "TestSendfile"
+      ]
+    ]
+  ],
+  "TestUrlFor": [
+    [
+      "tests/test_helpers.py",
+      [
+        "TestUrlFor"
+      ]
+    ]
+  ],
+  "TestNoImports": [
+    [
+      "tests/test_helpers.py",
+      [
+        "TestNoImports"
+      ]
+    ]
+  ],
+  "Wrapper": [
+    [
+      "tests/test_helpers.py",
+      [
+        "TestStreaming",
+        "test_streaming_with_context_and_custom_close",
+        "Wrapper"
+      ]
+    ]
+  ],
+  "TestStreaming": [
+    [
+      "tests/test_helpers.py",
+      [
+        "TestStreaming"
+      ]
+    ]
+  ],
+  "TestHelpers": [
+    [
+      "tests/test_helpers.py",
+      [
+        "TestHelpers"
+      ]
+    ]
+  ],
+  "FixedOffset": [
+    [
+      "tests/test_json.py",
+      [
+        "FixedOffset"
+      ]
+    ]
+  ],
+  "X": [
+    [
+      "tests/test_json.py",
+      [
+        "test_json_customization",
+        "X"
+      ]
+    ]
+  ],
+  "CustomProvider": [
+    [
+      "tests/test_json.py",
+      [
+        "test_json_customization",
+        "CustomProvider"
+      ]
+    ]
+  ],
+  "Foo": [
+    [
+      "tests/test_regression.py",
+      [
+        "test_aborting",
+        "Foo"
+      ]
+    ]
+  ],
+  "TestGreenletContextCopying": [
+    [
+      "tests/test_reqctx.py",
+      [
+        "TestGreenletContextCopying"
+      ]
+    ]
+  ],
+  "_TestHandler": [
+    [
+      "tests/test_templating.py",
+      [
+        "test_template_loader_debugging",
+        "_TestHandler"
+      ]
+    ]
+  ],
+  "CustomException": [
+    [
+      "tests/test_user_error_handler.py",
+      [
+        "test_error_handler_no_match",
+        "CustomException"
+      ]
+    ]
+  ],
+  "ParentException": [
+    [
+      "tests/test_user_error_handler.py",
+      [
+        "test_error_handler_subclass",
+        "ParentException"
+      ]
+    ]
+  ],
+  "ChildExceptionUnregistered": [
+    [
+      "tests/test_user_error_handler.py",
+      [
+        "test_error_handler_subclass",
+        "ChildExceptionUnregistered"
+      ]
+    ]
+  ],
+  "ChildExceptionRegistered": [
+    [
+      "tests/test_user_error_handler.py",
+      [
+        "test_error_handler_subclass",
+        "ChildExceptionRegistered"
+      ]
+    ]
+  ],
+  "ForbiddenSubclassRegistered": [
+    [
+      "tests/test_user_error_handler.py",
+      [
+        "test_error_handler_http_subclass",
+        "ForbiddenSubclassRegistered"
+      ]
+    ]
+  ],
+  "ForbiddenSubclassUnregistered": [
+    [
+      "tests/test_user_error_handler.py",
+      [
+        "test_error_handler_http_subclass",
+        "ForbiddenSubclassUnregistered"
+      ]
+    ]
+  ],
+  "Custom": [
+    [
+      "tests/test_user_error_handler.py",
+      [
+        "TestGenericHandlers",
+        "Custom"
+      ]
+    ]
+  ],
+  "TestGenericHandlers": [
+    [
+      "tests/test_user_error_handler.py",
+      [
+        "TestGenericHandlers"
+      ]
+    ]
+  ],
+  "Index1": [
+    [
+      "tests/test_views.py",
+      [
+        "test_view_provide_automatic_options_attr",
+        "Index1"
+      ]
+    ]
+  ],
+  "Index2": [
+    [
+      "tests/test_views.py",
+      [
+        "test_view_provide_automatic_options_attr",
+        "Index2"
+      ]
+    ]
+  ],
+  "Index3": [
+    [
+      "tests/test_views.py",
+      [
+        "test_view_provide_automatic_options_attr",
+        "Index3"
+      ]
+    ]
+  ],
+  "StatusJSON": [
+    [
+      "tests/type_check/typing_route.py",
+      [
+        "StatusJSON"
+      ]
+    ]
+  ],
+  "RenderTemplateView": [
+    [
+      "tests/type_check/typing_route.py",
+      [
+        "RenderTemplateView"
+      ]
+    ]
+  ]
+}
