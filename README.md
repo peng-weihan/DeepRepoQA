@@ -6,10 +6,27 @@
 
 ## Introduction
 
-DeepRepoQA is a project for deep repository question answering.
-![Approach](assets/approach.png)
-## Features
+**DeepRepoQA** is a framework for *deep repository question answering* in realistic code environments.
 
+Effectively answering developer questions about a software repository is a critical yet under-explored problem in software engineering. While existing repository understanding methods have advanced the field, they predominantly rely on surface-level code retrieval and lack the ability for deep reasoning over multiple files, complex software architectures, and grounding answers in long-range code dependencies. 
+
+To address these limitations, **DeepRepoQA** builds on the *agentic framework*, where LLM agents find answers through a systematic tree search over structured action spaces. Our key innovations include:
+- Balanced exploration and exploitation via **Monte Carlo Tree Search (MCTS)** for multi-hop repository reasoning.
+- **LLM feedback** that provides learned priors and values to reduce search depth and mitigate drift.
+- **Structured memory paths** that enable reliable evidence synthesis and traceable reasoning steps.
+
+Comprehensive experiments on **SWE-QA** demonstrate substantial performance gains over strong baselines, validating the effectiveness of systematic MCTS-guided exploration for multi-hop repository reasoning.
+
+<p align="center">
+  <img src="assets/approach.png" alt="Approach" style="max-width:80%; height:auto;"/>
+</p>
+
+
+DeepRepoQA is a project for deep repository question answering.
+
+
+The benchmark dataset used in our experiments is available on Hugging Face:
+- **Dataset**: [SWE-QA-Benchmark](https://huggingface.co/datasets/swe-qa/SWE-QA-Benchmark)
 
 ## Installation
 
@@ -87,34 +104,26 @@ python example_batch.py
 
 ---
 
+### Input
+
+Questions are saved in:
+
+```
+dataset/questions
+```
+
 ### Output
 
-Results from both single mode and batch mode are saved in:
+Results from batch mode are saved in:
 
 ```
 dataset/answers
 ```
 
-Each repository/question is stored as a JSONL file with answers
+Each question is stored as a JSONL file with answers
 
-
-
-## Project Structure
-
-```
-```
-
-
-## Contributing
-
-Contributions are welcome! Please follow these steps:
 
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-## Acknowledgments
-
