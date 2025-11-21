@@ -26,7 +26,55 @@ DeepRepoQA is a project for deep repository question answering.
 
 
 The benchmark dataset used in our experiments is available on Hugging Face:
-- **Dataset**: [SWE-QA-Benchmark](https://huggingface.co/datasets/swe-qa/SWE-QA-Benchmark)
+- **Dataset**: [SWE-QA-Benchmark](https://huggingface.co/datasets/Raymone023/SWE-QA-Benchmark)
+
+## Project Structure
+
+```
+DeepRepoQA/
+├── DeepRepoQA/              # Core framework implementation
+│   ├── agent/               # Agent implementations and prompts
+│   ├── actions/             # Action space definitions (MCTS actions)
+│   ├── code_qa/             # Code QA specific modules and search tree
+│   ├── index/               # Code indexing and embedding modules
+│   ├── feedback/            # Feedback mechanisms for MCTS
+│   ├── completion/          # LLM completion interfaces
+│   ├── repository/          # Repository interaction utilities
+│   ├── artifacts/           # Artifact handling
+│   ├── codeblocks/          # Code block parsing and processing
+│   ├── selector/            # Node selection strategies
+│   ├── value_function/      # Value function implementations
+│   └── utils/               # Utility functions
+│
+├── Script/                  # Baseline QA agent implementations
+│   ├── OpenHands_QA/        # OpenHands SDK-based QA agent
+│   ├── Cursor-Agent_QA/     # Cursor Agent-based QA agent
+│   └── SWE-agent_QA/        # SWE-agent adapted for QA tasks
+│
+├── dataset/                 # Dataset files
+│   ├── questions/           # Input questions (JSONL format)
+│   ├── answers/             # Output answers
+│   └── index_store/         # Generated code indices
+│
+├── assets/                  # Documentation assets
+│   └── approach.png         # Approach visualization
+│
+├── example.py               # Single mode example
+├── example_batch.py         # Batch mode example
+├── environment.yml          # Conda environment configuration
+└── README.md                # This file
+```
+
+### Key Directories
+
+- **`DeepRepoQA/`**: Main framework implementation with MCTS-based exploration, agent logic, and repository interaction capabilities.
+
+- **`Script/`**: Contains three alternative QA agent implementations:
+  - **`OpenHands_QA/`**: Uses OpenHands SDK with default tools for code exploration
+  - **`Cursor-Agent_QA/`**: Leverages Cursor Agent for repository question answering
+  - **`SWE-agent_QA/`**: Lightweight adaptation of SWE-agent core logic for QA tasks (no Docker required)
+
+- **`dataset/`**: Stores questions, generated answers, and pre-built code indices.
 
 ## Installation
 
